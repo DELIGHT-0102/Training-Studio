@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 5px 0;
+    background: rgba(0, 0, 0, 0.26);
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.diamond{
+    color: white;
+}
+.highlight{
+    color:orangered;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    gap:25px;
+}
+.nav-links a{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.signup-btn{
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.video{
+    width: 100%;
+    filter: brightness(0.6);
+}
+.container{
+    border: 5px solid rgba(0, 0, 0, 0.518);
+    position: relative;
+}
+.word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    position: absolute;
+    top:0 ;
+    right: 0;
+    left:0;
+    bottom:0;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+.subtitle{
+    color: white;
+   
+}
+.title{
+    color: white;
+    font-size:bold;
+}
+.good{
+    color: orangered;
+}
+.button{
+    color: white;
+    background-color: orangered;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+.button:hover{
+    color: rgb(255, 255, 255);
+}
+
+.prog{
+    color: orangered;
+}
+.a-bit{
+    text-align: center;
+}
+.program-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.program{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+}
+.info2{
+    padding: 10px 0;
+}
+.building{
+    background-image: url(./asset/cta-bg.jpg);
+    height:60vh ;
+}
+.built{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.built-in{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+.tire{
+    padding: 10px 0 ;
+}
+.class-image {
+    width: 100%;
+    max-width: 10px;
+    display: block;
+    margin: 20px;
+    border-radius: 10px;
+}
+.small-bit{
+    text-align: center;
+    padding: 10px;
+}
+.sidebar{
+    color: orangered;
+}
+.signup-btn:hover {
+    background:orangered;
+}
+.sidebar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.class-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class-card.active {
+    background:orangered;
+    color:white;
+}
+.classes {
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+}
+.main-content {
+    width: 70%;
+    padding-left: 20px;
+}
+.view-schedule{
+    border:10px ;
+    color: white;
+    background-color:orangered;
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.445);
+}
+.class-span{
+    color: orangered;
+}
+
+.class-store{
+    color: white;
+    background:orangered;
+    padding: 20px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.class-store:hover{
+    background-color: rgba(0, 0, 0, 0.539);
+    color:white;
+}
+.view-schedule{
+    padding: 10px;
+}
+.view-schedule:hover{
+    background-color: rgba(0, 0, 0, 0.584);
+}
+.text{
+    padding: 10px;
+}
+.All-schedule{
+    background-image: url(./asset/schedule-bg.jpg);
+    height:100vh ;
+}
+td,table,tr{
+  padding: 30px;
+  border: solid 1px rgba(255, 255, 255, 0.79);
+  color: white;
+  border-collapse: collapse;
+}
+.class-day{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.Monday :hover{
+   color : orangered;
+}
+.mirror{
+    color: white;
+}
+.days ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.days a{
+    color: white;
+}
+.sub-bit{
+ text-align: center;
+ padding: 10px;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.expert-trainers{
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+.bold {
+    color: black;
+
+}
+p {
+    color:rgba(0, 0, 0, 0.63);
+    font-size: 16px;
+}
+
+.trainers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.trainer-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+.trainer-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.category {
+    color: orangered;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.contact-area{
+    background-image: url(asset/contact-bg.jpg);
+    padding: 20px;
+    width: 100%;
+}
+.contact-space{
+    background:white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+.input-group input {
+    width: 50%;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color:orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button:hover {
+    background-color:orangered ;
+}
+.whole-area{
+    display: flex;
+    justify-content: center;
+}
+.anyname{
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.anyname .logo h2{
+    color: black;
+}
+.anyname .nav-links a{
+   color: rgb(19, 18, 18); 
+}
