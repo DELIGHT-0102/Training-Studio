@@ -46,6 +46,8 @@
 .video{
     width: 100%;
     filter: brightness(0.6);
+    height: 100vh;
+    object-fit: cover;
 }
 .container{
     border: 5px solid rgba(0, 0, 0, 0.518);
@@ -159,6 +161,7 @@
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
+    width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-weight: 600;
     cursor: pointer;
@@ -366,4 +369,33 @@ button:hover {
 }
 .anyname .nav-links a{
    color: rgb(19, 18, 18); 
+}
+@media screen and (max-width:768px) {
+    .program-grid{
+        display: block;
+    }
+   .left-program{
+    display: block;
+   }
+   .right-program{
+    display: block;
+   }
+   .classes{
+    display: block;
+   }
+   .trainers{
+    display: block;
+   }
+   .whole-area{
+    display: block;
+   }
+   td{
+    padding: 17px;
+   }
+   .class-card{
+    width: 100%;
+   }
+   .nav-links{
+    display: none;
+   }
 }
